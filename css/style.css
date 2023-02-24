@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+    @apply text-blue-300 w-fit mx-auto animate-[boom_.5s_ease-in-out_1] text-lg font-semibold transition-colors duration-300 hover:text-blue-500 text-center mb-3;
+}
+
+.error {
+    @apply text-red-500 animate-[boom_.3s_ease-in-out_1] text-base mb-3;
+}
+
+.remove {
+    @apply animate-[remove_.6s_ease-in-out_1];
+}
